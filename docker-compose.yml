@@ -18,7 +18,7 @@ services:
       - joomladb
 
   joomladb:
-    image: 'mysql:latest'
+    image: 'mysql:5'
     environment:
       - MYSQL_DATABASE=joomla
       - MYSQL_ROOT_PASSWORD=joomla_secret
